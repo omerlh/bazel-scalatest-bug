@@ -1,4 +1,5 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+scala_version_full = "2.13.6"
 
 skylib_version = "1.0.3"
 http_archive(
