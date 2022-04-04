@@ -5,8 +5,6 @@ import org.scalatest.EitherValues
 
 class Spec extends AnyFunSuite with Matchers {
   test("It should work") {
-    val either : Either[Any, Int] = Right(8)
-
-    either.value should equal(8)
+    new Dummy().get() should equal(8)
   }
 }

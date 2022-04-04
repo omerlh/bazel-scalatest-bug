@@ -3,3 +3,4 @@ bazel-*
 .vscode
 .bsp
 .bazelbsp
+coverage/
